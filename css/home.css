@@ -1,0 +1,209 @@
+body {
+    background: linear-gradient(90deg, grey,white);
+}
+
+#cabecera_inicio{
+    background: #d8e1e3;
+    height: 100px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+}
+/* botones */
+.botones-container{
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 40px;
+}
+
+.botones-container button {
+    background-color: #a6a6a6;
+    border: 2px solid #a6a6a6;
+    color: black; 
+    padding: 15px 30px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 24px; 
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 50px; 
+    font-family: 'Open Sans', sans-serif;
+    transition: background 0.3s, color 0.3s; 
+    background: linear-gradient(to bottom, #a6a6a6 50%, #000000 50%);
+    background-size: 100% 200%;
+    background-position: top;
+}
+
+.botones-container button:hover {
+    background-position: bottom;
+    color: white; 
+}
+
+.boton-comenzarjornada {
+    position: absolute;
+    bottom: 220px;
+    left: 12%;
+    background-color: #b7e191; 
+    border: 1px solid #b7e191;
+    border-radius: 20px; 
+    padding: 10px 20px; 
+    font-size: 12px;
+}
+.boton-finalizarjornada{
+    position: absolute;
+    bottom: 220px;
+    left: 25%;
+    background-color: #fd7878; 
+    border: 1px solid #fd7878;
+    border-radius: 20px; 
+    padding: 10px 20px; 
+    font-size: 12px;
+}
+
+.Novedades {
+    background-color: #ffffff; 
+    border: none;
+    border-radius: 30px;
+    width: 500px;
+    height: 190px;
+    font-size: 24px; 
+    color: black; 
+    text-align: center; 
+    display: inline-block; 
+    cursor: pointer; 
+    font-family: 'Open Sans', sans-serif; 
+    position: absolute;
+    bottom: 20px;
+    left: 7%;
+
+}
+
+
+.contenido-inicio{
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    font-size: 20px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.reloj{
+    font-family: 'Share Tech Mono', monospace;
+    color: #ffffff;
+    text-align: center;
+    position: absolute;
+    left: 25%;
+    top: 45%;
+    transform: translate(-50%,-50%);
+    text-shadow: 0 0 20px rgba(10,175, 230,1), 0 0 20px rgba(10,175, 230,0);
+}
+
+.tiempo{
+    letter-spacing: 0.05em;
+    font-size: 80px;
+    padding: 5px 0;
+}
+
+.fecha{
+    letter-spacing: 0.1em;
+    font-size: 24px;
+}
+
+
+.carrusel {
+    text-align: center;
+    margin: 20px auto;
+    width: 500px; 
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    position: absolute; 
+    right: 50px; 
+    top: 100px;
+}
+
+.carrusel-contenedor {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 300px; 
+}
+
+.carrusel-items {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.item {
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.carrusel-boton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+.carrusel-boton.izq {
+    left: 10px;
+}
+
+.carrusel-boton.der {
+    right: 10px;
+}
+
+.indicadores {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.indicador {
+    width: 10px;
+    height: 10px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.indicador.activo {
+    background-color: #333;
+}
+
+.comunicado {
+    display: block; 
+    margin: 0 auto; 
+    position: absolute;
+    bottom: 80px;
+    left: 120px;
+}

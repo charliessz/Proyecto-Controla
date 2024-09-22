@@ -1,0 +1,48 @@
+body {
+    background: linear-gradient(90deg, grey,white);
+}
+
+#cabecera_inicio{
+    background: #d8e1e3;
+    height: 100px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+}
+/* botones */
+.botones-container{
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 40px;
+}
+
+.botones-container button {
+    background-color: #a6a6a6;
+    border: 2px solid #a6a6a6;
+    color: black; 
+    padding: 15px 30px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 2px;
+    cursor: pointer; 
+    border-radius: 50px; 
+    font-family: 'Open Sans', sans-serif; 
+    transition: background 0.3s, color 0.3s; 
+    background: linear-gradient(to bottom, #a6a6a6 50%, #000000 50%);
+    background-size: 100% 200%;
+    background-position: top;
+}
+
+.botones-container button:hover {
+    background-position: bottom;
+    color: white;
+}
+.espacio-tabla{
+    padding: 20%;
+}

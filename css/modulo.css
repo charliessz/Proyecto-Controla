@@ -1,0 +1,84 @@
+body {
+    background: url(../img/imagen_de_fondo_iniciar_sesion.webp);
+    background-size:1400px;
+    
+   
+}
+
+
+#cuadro_login{
+    float: right;
+    height: fit-content;
+    background-color: rgba(209, 199, 199, 0.8);
+    padding: 20px;
+    border-radius: 20px;
+    width: 28vw; 
+    margin-right: 50px;
+    margin-top: 70px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: black 1px solid;
+    display: auto;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.entrada_texto{
+    font-size: 50px;
+    position: relative;
+    top: -30px;
+    left: 15px;
+    
+    margin-right: auto;
+    align-items: justify; 
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.entrada_id_reg{
+    font-size: 25px;
+    position: relative;
+    top: -40px;
+   
+}
+.entrada_email_reg{
+    font-size: 25px;
+    position: relative;
+    top: -40px;
+    
+}
+.entrada_con_reg{
+    font-size: 25px;
+    position: relative;
+    top: -40px;
+}
+.link_contraseña{
+    position: relative;
+    top: -30px;
+    left: 100px;
+}
+
+.entrada_nom_reg{
+    font-size: 25px;
+    position: relative;
+    top: -40px;
+}
+
+.botonRegistro[type="submit"]{
+    width: 200px;
+    height: 50px;
+    border: 1px solid;
+    background: #a6a6a6;
+    border-radius: 25px;
+    font-size: 18px;
+    color: black;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    right: -90px;
+    bottom: 30px
+}
+
+.botonRegistro[type="submit"]:hover{
+    border-color: #a6a6a6;
+    transition: .5s;
+
+}
